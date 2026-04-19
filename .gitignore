@@ -1,0 +1,15 @@
+# Obsidian — per-machine workspace state
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/workspace.json.bak
+
+# Obsidian — local caches and trash
+.obsidian/cache
+.obsidian/plugins/*/data.json
+.trash/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
