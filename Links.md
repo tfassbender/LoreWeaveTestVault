@@ -1,1 +1,0 @@
-Links should be automatically detected by [[Lore Weave]].
