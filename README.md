@@ -21,3 +21,12 @@ Point a running LoreWeave instance at this repo by setting
 `loreweave.vault.remote` to its clone URL (HTTPS or SSH). The server will clone it
 into its local working directory on boot and pull on the configured sync interval.
 See [LoreWeave's main README](https://github.com/tfassbender/LoreWeave) for details.
+
+## Live local validation
+
+[LoreWeaveWatcher](https://github.com/tfassbender/LoreWeaveWatcher) is a sibling
+project that drops a single fat jar into `<vault>/.loreweave/` and serves a
+browser dashboard showing parser and validation issues against the files on
+disk — no commit, no push, no server round-trip. Drop the jar into this vault's
+`.loreweave/` (gitignored) and double-click the launcher to see the
+`_problems/` fixtures here surface every validation category live.
