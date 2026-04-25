@@ -13,3 +13,7 @@
 Thumbs.db
 desktop.ini
 *.swp
+
+# lore-weave-watch jar lives here while the project is in development; the
+# released artifact will be checked in once the implementation stabilizes.
+.loreweave/
