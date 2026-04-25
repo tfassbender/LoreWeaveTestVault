@@ -1,0 +1,11 @@
+{
+  "theme": "dark",
+  "auto_open_browser": true,
+  "poll_interval_ms": 1000,
+  "idle_shutdown": {
+    "enabled": true,
+    "threshold_ms": 10000,
+    "grace_ms": 30000
+  },
+  "ignore_paths": []
+}
